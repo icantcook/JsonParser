@@ -8,13 +8,16 @@ typedef enum {
     VALUE_FALSE,
     VALUE_TRUE,
     VALUE_NULL,
+    Number,
     Object,
-    Array
+    Array,
+    String
 } ValueTypeEnum;
 
 typedef enum {
     VALUE_FALSE_INITIAL,
     VALUE_TRUE_INITIAL,
+    VALUE_NUMBER_INITIAL,
     VALUE_SPACE,
     VALUE_NULL_INITIAL,
     VALUE_QUOTE,
